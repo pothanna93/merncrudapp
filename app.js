@@ -1,11 +1,11 @@
-const env = require("dotenv");
+require("dotenv").config();
 const express = require("express");
 const app = express();
 require("./Db/connection");
 const users = require("./models/userSchema");
 const cors = require("cors");
 const router = require("./routes/router");
-env.config();
+
 const PORT = process.env.PORT || 4000;
 
 app.use(cors());
