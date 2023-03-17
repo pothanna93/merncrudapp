@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
-const dotenv = require("dotenv");
-dotenv.config();
+
 const DB = process.env.DATABASE;
 //"mongodb+srv://pothanna:pullolla@cluster1.qkghi9i.mongodb.net/mernstack?retryWrites=true&w=majority";
 
