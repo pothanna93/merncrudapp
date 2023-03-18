@@ -1,5 +1,5 @@
-//require("dotenv").config();
-require("dotenv-extended").load();
+require("dotenv").config();
+
 const express = require("express");
 const app = express();
 require("./Db/connection");
